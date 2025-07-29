@@ -11,6 +11,9 @@ import ai_gen_img_2 from "./ai_gen_img_2.png";
 import ai_gen_img_3 from "./ai_gen_img_3.png";
 import logo2 from "./logo2.jpeg";
 import logo3 from "./logo3.jpeg";
+import logo4 from "./logo4.jpeg";
+import logo5 from "./logo5.jpeg";
+import logo6 from "./logo6.jpeg";
 
 export const assets = {
     logo,
@@ -20,7 +23,10 @@ export const assets = {
     profile_img_1,
     arrow_icon,
     logo2,
-    logo3
+    logo3,
+    logo4,
+    logo5,
+    logo6
 };
 
 export const AiToolsData = [

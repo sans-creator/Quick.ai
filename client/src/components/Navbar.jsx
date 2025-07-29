@@ -27,11 +27,12 @@ const Navbar = () => {
   return (
     <div className='fixed z-50 w-full backdrop-blur-2xl flex justify-between items-center py-3 px-4 sm:px-20 xl:px-32'>
       <img
-        src={assets.logo3}
-        alt="logo"
-        className='w-32 sm:w-44 cursor-pointer'
-        onClick={() => navigate('/')}
-      />
+  src={assets.logo5}
+  alt="logo"
+  className="w-28 sm:w-36 md:w-40 lg:w-44 transition-transform duration-200 hover:scale-105 cursor-pointer filter dark:brightness-90"
+  onClick={() => navigate('/')}
+/>
+
 
       <div className="flex items-center gap-4">
         {/* 🌗 Dark Mode Toggle */}
