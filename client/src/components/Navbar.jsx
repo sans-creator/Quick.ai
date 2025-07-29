@@ -36,12 +36,12 @@ const Navbar = () => {
 
       <div className="flex items-center gap-4">
         {/* 🌗 Dark Mode Toggle */}
-        <button
+        {/* <button
           onClick={() => setDarkMode(!darkMode)}
           className='p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-black dark:text-white hover:scale-105 transition'
         >
           {darkMode ? <Sun size={18} /> : <Moon size={18} />}
-        </button>
+        </button> */}
 
         {/* 🧑 Auth Button */}
         {user ? (
