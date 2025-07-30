@@ -24,7 +24,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-white text-black dark:bg-gray-900 dark:text-white min-h-screen transition-colors duration-300">
+    <div className="bg-purple-200 text-black dark:bg-gray-900 dark:text-white min-h-screen transition-colors duration-300">
       <Toaster />
       <Routes>
         <Route path='/' element={<Home />} />
